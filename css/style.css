@@ -200,9 +200,7 @@ section
     top: 8px;
     right: 8px;
 
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
 
     width: 30px;
     height: 30px;
@@ -513,6 +511,13 @@ section
 
         -webkit-animation: fade .5s;
                 animation: fade .5s;
+    }
+
+    .methods__close
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
     }
 }
 
