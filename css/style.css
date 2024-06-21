@@ -501,6 +501,7 @@ section
         display: none;
 
         width: 100%;
+        overflow-y: auto;
 
         background-color: rgba(0,0,0,.9);
     }
